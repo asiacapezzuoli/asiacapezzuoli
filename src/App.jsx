@@ -13,7 +13,7 @@ export default function App() {
     <div className="container">
       <div className="scroll">
         {projects.map((p) => (
-          <Link key={p.slug} to={\`/project/\${p.slug}\`} className="card">
+          <Link key={p.slug} to={`/project/${p.slug}`} className="card">
             <h2>{p.title}</h2>
           </Link>
         ))}
