@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+.scroll {
+  flex: 1;
+  display: flex;
+  overflow-x: auto;
+  gap: 2rem;
+  padding: 2rem;
+}
+.card {
+  min-width: 300px;
+  height: 200px;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 8px;
+}
+.sidebar {
+  width: 300px;
+  padding: 2rem;
+  background: #fff;
+  border-left: 1px solid #ccc;
+}
+.project {
+  padding: 2rem;
+}
+.project img {
+  max-width: 100%;
+  margin: 1rem 0;
+}
